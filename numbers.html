@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+var number = prompt ("Please enter a number");
+
+var thousands = number % 10000;
+var hundreds = (number % 1000);
+var tens = (number % 100);
+var ones = number % 10;
+
+console.log (Math.floor(thousands/1000) + " thousands\n" + Math.floor(hundreds/100) + " hundreds\n"+ Math.floor(tens/10) + " tens\n" + ones + " ones");
+
+</script>
+</body>
+</html>
